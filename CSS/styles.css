@@ -8,17 +8,34 @@
 /*Header*/
 .site-header.inicio
 {
-    background-image: url(../img/2020-01-18\ \(3\).png);
+    /*background-image: url(../img/2020-01-18\ \(3\).png);
     background-position: center center;
     background-size: cover;
     min-height: 100px;
     height: 600px;
-    width: 1000px;
+    width: 1000px;*/
+    
+    background-image: url(../img/2020-01-18\ \(3\).png);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    min-width: 600px;
 }
 
 .barra
 {
+    position: relative;
+    right: 1px;
+    top: 10px;
     display: flex;
     justify-content: space-between;
-    padding-top: 30px;
+    
+    /*padding-top: 30px;*/
+}
+/* Logo:width 450 height 395*/
+.logo
+{
+    position: absolute;
+    top: 40px;
+    left: 100vh;
 }
