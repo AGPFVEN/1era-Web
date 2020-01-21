@@ -8,13 +8,7 @@
 /*Header*/
 .site-header.inicio
 {
-    /*background-image: url(../img/2020-01-18\ \(3\).png);
-    background-position: center center;
-    background-size: cover;
-    min-height: 100px;
-    height: 600px;
-    width: 1000px;*/
-    
+    position: relative;
     background-image: url(../img/2020-01-18\ \(3\).png);
     background-position: center center;
     background-size: cover;
@@ -24,18 +18,26 @@
 
 .barra
 {
-    position: relative;
-    right: 1px;
+    position: absolute;
+    left: 580px;
     top: 10px;
+    margin-top: 20px;
     display: flex;
     justify-content: space-between;
-    
-    /*padding-top: 30px;*/
 }
-/* Logo:width 450 height 395*/
+
 .logo
 {
     position: absolute;
     top: 40px;
     left: 100vh;
+}
+
+/*Navegación*/
+.Navegación a
+{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 25px;
 }
