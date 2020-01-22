@@ -1,3 +1,8 @@
+body
+{
+    font-family: 'Roboto', sans-serif;
+}
+
 /*Global*/
 .contenedor
 {
@@ -36,8 +41,16 @@
 /*Navegación*/
 .Navegación a
 {
-    color: white;
+    color: rgb(214, 214, 214);
     text-decoration: none;
     font-size: 20px;
     margin-right: 25px;
+}
+.Navegación a:last-of-type
+{
+    margin: 0;
+}
+.Navegación a:hover
+{
+    color: rgb(255, 255, 255);
 }
