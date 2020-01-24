@@ -1,6 +1,8 @@
 body
 {
     font-family: 'Roboto Slab', serif;
+    color: white;
+    background-color: black;
 }
 
 /*Global*/
@@ -14,17 +16,17 @@ body
 .site-header.inicio
 {
     position: relative;
-    background-image: url(../img/2020-01-18\ \(3\).png);
+    background-image: url(../img/CodeBackground.png);
     background-position: center center;
     background-size: cover;
-    height: 100vh;
-    min-width: 600px;
+    height: 75vh;
+    width: 150vh;
 }
 
 .barra
 {
-    position: absolute;
-    left: 580px;
+    position: relative;
+    left: 100vh;
     top: 10px;
     margin-top: 20px;
     display: flex;
