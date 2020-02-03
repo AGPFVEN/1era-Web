@@ -3,10 +3,10 @@ html
     font-size: 62.5%; /*Reset para REMS -62.5% = 10px de 16px*/
 }
 
-
 body
 {
     font-family: 'Roboto Slab', serif;
+    font-size: 1.6rem;
     color: white;
     background-color: black;
 }
@@ -25,6 +25,18 @@ body
 {
     max-width: 110rem; /*1200 px*/
     margin: 0 auto;
+}
+
+.contenido-header
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.contenido-header h1
+{
+    
 }
 
 .barra
