@@ -14,14 +14,10 @@ body
 .Hhead
 {
     /*color: black;*/
-    /*position: fixed;
-    font-size: 12rem;
-    bottom: 15rem;
-    right: 1rem;*/
-    position: fixed;
-    font-size: 10vh;
-    bottom: 20vh;
-    right: 1vh;
+    position: absolute;
+    font-size: 10rem;
+    bottom: -7rem;
+    right: 1rem;
 }
 
 /*Global*/
@@ -73,6 +69,14 @@ h4
 {
     font-size: 2.6rem;
 }
+
+/*Utilidades*/
+.seccion
+{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
 /*Header*/
 .site-header.inicio
 {
@@ -81,7 +85,7 @@ h4
     background-position: center center;
     background-size: cover;
     height: 42rem;
-    widows: 50rem;
+    widows: 10rem;
 }
 
 .logo
