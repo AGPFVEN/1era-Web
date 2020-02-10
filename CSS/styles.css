@@ -77,6 +77,19 @@ h4
     margin-bottom: 2rem;
 }
 
+/*iconos*/
+.iconos-nosotros
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.icono
+{
+    flex-basis: clac(33.3% - 1rem);
+    text-align: center;
+}
+
 /*Header*/
 .site-header.inicio
 {
